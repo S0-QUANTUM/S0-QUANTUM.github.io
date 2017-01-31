@@ -1,0 +1,83 @@
+body {
+	background: url("images/bg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: arial;
+	font-size: 14px;
+	margin: 20px;
+	padding: 10px;
+	color: lime;
+	}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+h1 {
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+	border-left-width: 5px;
+	border-right-width: 5px;
+	border-color: black;
+	font-size: 1.5em:;
+	background-color: #ccc;
+	margin: 20px;
+	padding: 5px;
+	color: black;
+}
+
+a {
+	color: lime;
+}
+h2 {
+	font-size: 1.5em;
+	background-color: #ccc;
+	margin: 25px;
+	padding: 10px;
+	color: black;
+}	
+p {
+	font-family: arial;
+	font-size: 14px;
+	margin: 20px;
+	padding: 10px;
+}
+iframe {
+    width: 560px;
+    display: block;
+    margin: 0 auto;
+}
